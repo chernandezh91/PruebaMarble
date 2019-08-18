@@ -22,14 +22,15 @@ Para cumplir con una búsqueda correcta de resultados.
 3. Configuraciones requeridas para la ejecución del proyecto
   3.1. Versión Gradle: 4.10
   3.2. Versión Java: 1.8
-  3.3. para el Debug Configurations en el IDE, la opción Shorten command line, seleccionar classpath file
+  3.3. Versión Google Chrome 76.0 o superior
+  3.4. para el Debug Configurations en el IDE, la opción Shorten command line, seleccionar classpath file
   
 4. Ejecución de la prueba
-Importar el proyecto desde la IDE  (IntelliJ IDEA o Eclipse) para la ejecución, y dirigirse a la siguiente ruta del proyecto
+Importar la carpeta <<co.com.proyectobase.screenplay>> del proyecto desde la IDE (IntelliJ IDEA o Eclipse) para la ejecución, y dirigirse a la siguiente ruta del proyecto
 co.com.proyectobase.screenplay\src\test\java\co\com\proyectobase\screenplay\runners\VerifyCorrectWritingOfWord
 
 una vez abierto la clase runner a ejecutar <<VerifyCorrectWritingOfWord>> ubicamos la pestaña Run/Ejecutar (tener en cuenta el idioma)
-y clic en la opción que nos indique para ejecutar <<VerifyCorrectWritingOfWord>> y esto nos ejecutar el escenario de prueba planteado
+y clic en la opción que nos indique para ejecutar <<VerifyCorrectWritingOfWord>> y esto nos ejecuta el escenario de prueba planteado desde el navegador Google Chrome
 
 5. Utilidades
   5.1. Serenity
